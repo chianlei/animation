@@ -1,6 +1,6 @@
 import "./app.scss";
 import Navbar from "./components/navbar/Navbar";
-import { motion, useAnimation, useScroll } from "framer-motion";
+import { motion, useScroll } from "framer-motion";
 
 const App = () => {
   const { scrollYProgress } = useScroll();
